@@ -514,7 +514,7 @@ hr {
     text-decoration: none; }
 
 .col-lg-4 {
-  width: 30%;
+  max-width: 32%;
   display: inline-block;
   text-align: center;
   margin: 0px 2.5px 0px 2.5px;
@@ -603,3 +603,17 @@ iframe {
 
 .tooltip-social {
   display: inline; }
+
+@media screen and (min-width: 480px) {
+  .img-responsive {
+    width: 100%; }
+  .col-sm-12 {
+    max-width: 95%; } }
+
+@media screen and (min-width: 961px) {
+  .col-md-6 {
+    max-width: 49%; } }
+
+@media screen and (min-width: 1281px) {
+  .col-lg-4 {
+    max-width: 32%; } }

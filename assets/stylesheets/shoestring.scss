@@ -110,7 +110,7 @@ hr{
 
 .col-lg-4{
 
-    width: 30%;
+    max-width: 32%;
     display:inline-block;
     text-align:center;
     margin: 0px 2.5px 0px 2.5px;
@@ -151,13 +151,13 @@ hr{
 	}
 }
 
+//the 6 smaller pics
 .img-home-portfolio {
 	max-width: 90%;
     height: auto;
     padding: 10px 0px 10px 10px;
- 
-
 }
+
 
 
 .col-lg-6{
