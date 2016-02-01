@@ -446,7 +446,12 @@ footer {
 body {
   padding-top: 0px; }
   body h1 {
-    color: white; }
+    color: black;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px; }
+    body h1 small {
+      color: grey; }
   body .section {
     margin-right: 50px;
     margin-left: 50px; }
@@ -527,3 +532,30 @@ hr {
   padding: 20px; }
   .col-lg-6 h2 {
     text-align: left; }
+
+.breadcrumb {
+  text-align: left;
+  background-color: grey;
+  height: 50px;
+  list-style: none;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #fff; }
+  .breadcrumb li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 10px 5px 10px 0px;
+    position: relative;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none; }
+  .breadcrumb a::after {
+    content: " /";
+    margin-right: .4em;
+    color: white; }
+  .breadcrumb a:link {
+    text-decoration: none; }
+  .breadcrumb a:visited {
+    color: blue;
+    text-decoration: none; }

@@ -6,7 +6,14 @@ body {
 
 
   h1 {
-    color: white;
+    color: black;
+    text-align:left;
+    margin-right:50px;
+  	margin-left:50px;
+    small{
+    	color:grey;
+
+    }
   }
 
   .section{
@@ -140,6 +147,50 @@ hr{
 	
 }
 
+.breadcrumb{
+	text-align:left;
+	background-color:grey;
+	height:50px;
+	list-style:none;
+	margin-right:50px;
+  	margin-left:50px;
+  	color: #fff;
+
+
+
+
+
+	li{	
+		 display: block;
+		 float: left;
+		 text-align: center;
+		 padding: 10px 5px 10px 0px;
+		 position: relative;
+		 font-family: "Open Sans", Helvetica, Arial, sans-serif;
+		 font-size: 20px;
+		 text-decoration: none;
+		 
+
+	}
+
+	a::after{
+		content: " /";
+		margin-right:.4em;
+		color: white;
+	}
+
+	a:link {
+    text-decoration: none;
+	}	
+
+	a:visited{
+		color:blue;
+		text-decoration:none;
+	}
+
+
+
+}
 
 
 
