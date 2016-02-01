@@ -263,7 +263,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -442,5 +443,39 @@ footer {
     height: 70%;
     /* increases the carousel height so it looks good on phones */ } }
 
-body h1 {
-  color: white; }
+body {
+  padding-top: 0px; }
+  body h1 {
+    color: white; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both; }
+
+.row {
+  clear: both; }
+
+.col-lg-12 {
+  width: 100%; }
+
+.navbar {
+  background-color: black;
+  height: 50px; }
+  .navbar .navbar-header {
+    margin-left: 50px;
+    float: left; }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+    display: inline-block; }
+  .navbar a {
+    margin-top: 10px;
+    color: white;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none; }

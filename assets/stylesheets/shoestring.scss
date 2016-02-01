@@ -1,7 +1,61 @@
 @import "normalize";
 @import "modern-business";
 body {
+
+  padding-top: 0px;
+
   h1 {
     color: white;
   }
 }
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
+}
+
+.row{
+	clear: both;
+}
+
+.col-lg-12{
+	width: 100%;
+}
+
+.navbar{
+
+	background-color:black;
+	height:50px;
+
+ 
+ 	.navbar-header{
+ 	 margin-left: 50px;
+     float: left;
+ 	}
+	
+
+	ul{
+
+		
+		margin: 0;
+		padding:0;
+		list-style:none;
+		margin-right:50px;
+		float:right;
+		text-align: right;
+		display: inline-block;
+
+	}
+	 
+
+	 a {
+     margin-top: 10px;
+     color: white;
+  	 display: block;
+  	 padding: 6px 12px;
+   	 text-decoration: none;
+	 }
+
+}
+
