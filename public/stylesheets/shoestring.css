@@ -450,9 +450,12 @@ body {
   body .section {
     margin-right: 50px;
     margin-left: 50px; }
-  body .section-colored {
-    margin-right: 50px;
-    margin-left: 50px; }
+
+footer {
+  margin-right: 50px;
+  margin-left: 50px; }
+  footer .col-lg-12 {
+    text-align: left; }
 
 .container {
   margin-left: auto;
@@ -467,7 +470,8 @@ body {
   text-align: center; }
 
 .section-colored {
-  padding: 50px; }
+  margin-right: 50px;
+  margin-left: 50px; }
   .section-colored h2 {
     font-weight: bold;
     text-align: center; }
@@ -475,11 +479,13 @@ body {
     text-align: center;
     font-size: 0.8em;
     font-weight: 200; }
-  .section-colored hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 80%; }
 
 .navbar {
   background-color: black;
@@ -517,4 +523,7 @@ body {
 .col-lg-6 {
   display: inline-block;
   vertical-align: top;
-  width: 49%; }
+  width: 47%;
+  padding: 20px; }
+  .col-lg-6 h2 {
+    text-align: left; }

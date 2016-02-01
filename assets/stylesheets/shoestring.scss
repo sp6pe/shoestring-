@@ -10,14 +10,19 @@ body {
   }
 
   .section{
-  	 margin-right:50px;
+  	margin-right:50px;
   	margin-left:50px;
   }
 
-  .section-colored{
-    margin-right:50px;
+}
+
+footer{
+	margin-right:50px;
   	margin-left:50px;
-  }
+
+	.col-lg-12{
+		text-align:left;
+	}
 }
 
 .container {
@@ -38,8 +43,9 @@ body {
 
 .section-colored{
 
-
-	padding:50px;
+	margin-right:50px;
+  	margin-left:50px;
+	
 
 	h2{
 		font-weight: bold;
@@ -53,16 +59,17 @@ body {
 
 	}
 
-	hr{
-		border: 0;
-  		height: 0;
-   		border-top: 1px solid rgba(0, 0, 0, 0.1);
-  		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	}
 
 }
 
 
+hr{
+		border: 0;
+  		height: 0;
+   		border-top: 1px solid rgba(0, 0, 0, 0.1);
+  		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  		width:80%;
+	}
 
 .navbar{
 
@@ -122,8 +129,13 @@ body {
 .col-lg-6{
 	display:inline-block;
 	vertical-align: top;
-	width:49%
+	width:47%;
+	padding:20px;
 
+
+	h2{
+		text-align: left;
+	}
 	
 	
 }
