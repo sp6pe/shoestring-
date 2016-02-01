@@ -447,6 +447,12 @@ body {
   padding-top: 0px; }
   body h1 {
     color: white; }
+  body .section {
+    margin-right: 50px;
+    margin-left: 50px; }
+  body .section-colored {
+    margin-right: 50px;
+    margin-left: 50px; }
 
 .container {
   margin-left: auto;
@@ -457,7 +463,23 @@ body {
   clear: both; }
 
 .col-lg-12 {
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
+
+.section-colored {
+  padding: 50px; }
+  .section-colored h2 {
+    font-weight: bold;
+    text-align: center; }
+  .section-colored p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 200; }
+  .section-colored hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 .navbar {
   background-color: black;
@@ -479,3 +501,15 @@ body {
     display: block;
     padding: 6px 12px;
     text-decoration: none; }
+
+.col-lg-4 {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 0px 2.5px 0px 2.5px;
+  vertical-align: top; }
+
+.img-responsive {
+  max-width: 90%;
+  height: auto;
+  padding: 10px 0px 10px 10px; }
