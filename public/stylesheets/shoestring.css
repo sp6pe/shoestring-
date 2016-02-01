@@ -520,6 +520,30 @@ hr {
   margin: 0px 2.5px 0px 2.5px;
   vertical-align: top; }
 
+.form-group {
+  margin: 5px; }
+  .form-group label {
+    display: block;
+    text-align: left;
+    font-weight: bold; }
+  .form-group input {
+    float: left;
+    width: 80%; }
+  .form-group textarea {
+    width: 100%; }
+  .form-group button {
+    margin: 10px 0px 0px 0px;
+    display: block;
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    border-radius: .8em;
+    padding: .375rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center; }
+
 .img-home-portfolio {
   max-width: 90%;
   height: auto;
@@ -560,12 +584,20 @@ hr {
     color: blue;
     text-decoration: none; }
 
+iframe {
+  width: 80%;
+  display: block; }
+
 .col-sm-8 {
   width: 60%;
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
+  padding-right: 100px; }
 
 .col-sm-4 {
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top; }
 
 .list-social-icons {
   padding-left: 10px; }
